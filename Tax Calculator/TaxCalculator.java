@@ -1,5 +1,3 @@
-package mainCal;
-
 public class TaxCalculator {
 	private static final double income_Tax_Rate_1 = 0.05;
     private static final double income_Tax_Rate_2 = 0.2;
