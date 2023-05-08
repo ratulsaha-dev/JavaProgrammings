@@ -1,8 +1,5 @@
-package mainCal;
 import java.util.*;
-
 public class TaxCalculatorApp {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
@@ -12,7 +9,5 @@ public class TaxCalculatorApp {
 		scan.close();
 		double tax = t.calculateTax(income);
         System.out.println("Tax: " + tax);
-		
 	}
-
 }
